@@ -1,0 +1,12 @@
+docker run -it -p 8080:3000 -v "/Totvs/Docker/projeto-node:/var/www" node bash    
+# cria um container com a imagem node e vincula o volume na porta 8080
+
+curl --request GET \
+  --url 'http://localhost:8080/?=' \
+  --header 'Content-Type: application/json'
+#teste de appi no bash
+
+
+
+
+
